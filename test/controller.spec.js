@@ -52,7 +52,24 @@ describe('controller', function () {
         };
     };
 
-    beforeEach(function () {
+    var setupTemplates = function () {
+        var div = document.createElement('div');
+        var templateId = 'test-tpl';
+        var oldDiv = document.querySelector('#' + templateId);
+        div.setAttribute('id', templateId);
+        div.innerHTML = window.__html__['test/test.tpl.html'];
+        if (oldDiv) {
+            document.body.removeChild(oldDiv);
+            oldDiv = null;
+        }
+        document.body.appendChild(div);
+    };
+    
+    beforeEach(function (done) {
+        setTimeout(function () {
+            setupTemplates();
+            done();
+        }, 0);
         model = jasmine.createSpyObj('model', ['read', 'getCount', 'remove', 'create', 'update']);
         view = createViewStub();
         subject = new app.Controller(model, view);
