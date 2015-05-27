@@ -11,7 +11,7 @@ module.exports = function(config) {
 			'js/helpers.js',
 			// 'js/store.js',
 			// 'js/model.js',
-			// 'js/template.js',
+			'js/template.js',
 			'js/view.js',
 			'js/controller.js',
 			// 'js/app.js',
@@ -38,15 +38,16 @@ module.exports = function(config) {
 	        'karma-phantomjs-launcher',
 	        'karma-chrome-launcher',
 	        'karma-jasmine',
-	        'karma-html2js-preprocessor'
-	        // 'karma-spec-reporter',
-	        // 'karma-mocha-reporter',
+	        'karma-html2js-preprocessor',
+	        'karma-spec-reporter',
+	        'karma-mocha-reporter'
 	        // 'karma-json-fixtures-preprocessor'
 	    ],
 	    reporters: [
-	    	'progress', 
+	    	// 'progress', 
 	    	// 'dots',
-	    	// 'mocha'
+	    	// 'spec'
+	    	'mocha'
 	    ]
   });
 };
