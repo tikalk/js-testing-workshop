@@ -1,11 +1,12 @@
-# js-testing-workshop
+# js-testing-workshop  
 learning to test with js: unit testing, automation and e2e
 
+## Run Tests  
+You can run the tests in terminal or in the browser.
 
-# TODO  
-1. add karma configuration to package.json
-2. config karma to the relevant app files
-
-# Run Tests  
-to run tests use:  
+### Run In Terminal  
+Runing the tests in terminal uses karma & phantomjs. to run tests use:  
 ```npm test```
+
+### Run in Browser (with jasmine runner.html)  
+open [runner](/test/runner.html)

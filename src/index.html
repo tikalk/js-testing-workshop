@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Todo List App</title>
+	<link rel="stylesheet" href="base/base.css">
+	<link rel="stylesheet" href="base/index.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<section id="todoapp">
+		<div id="container">
+			<div class="actions-bar">
+				<header id="header">
+					<h1>todos</h1>
+					<input id="new-todo" type="text" placeholder="Add Something...">
+				</header>
+				<button id="add-new">Add</button>
+				<button id="remove-todos" title="remove done items">Remove Done</button>
+				<ul id="todo-list"></ul>
+			</div>
+		</div>
+		<div id="filters">Filter: </div>
+	</section>
+</body>
+
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="app.js"></script>
+<script src="js/TodoItem.js"></script>
+<script src="js/TodoList.js"></script>
+<script src="js/ItemView.js"></script>
+<script src="js/ListView.js"></script>
+<script src="js/filters/Filter.js"></script>
+<script src="js/filters/FilterView.js"></script>
+<script src="js/filters/FiltersView.js"></script>
+<script src="start.js"></script>
+
+</html>

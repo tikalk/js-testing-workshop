@@ -1,0 +1,24 @@
+{
+  "name": "js-testing-workshop",
+  "version": "0.0.1",
+  "homepage": "https://github.com/tikalk/js-testing-workshop",
+  "authors": [
+    "orizens <farhioren@gmail.com>"
+  ],
+  "description": "js testing workshop @ Tikal",
+  "keywords": [
+    "jasmine",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jasmine-jquery": "~2.1.0"
+  }
+}

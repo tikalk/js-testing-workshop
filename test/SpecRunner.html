@@ -1,45 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>Jasmine Spec Runner</title>
+  <meta charset="utf-8">
+  <title>Jasmine Spec Runner v2.3.4</title>
 
-  <link rel="stylesheet" href="../node_modules/jasmine/lib/jasmine-core/jasmine.css">
-  <script src="../node_modules/jasmine/lib/jasmine-core/jasmine.js"></script>
-  <script src="../node_modules/jasmine/lib/jasmine-core/jasmine-html.js"></script>
+  <link rel="shortcut icon" type="image/png" href="lib/jasmine-2.3.4/jasmine_favicon.png">
+  <link rel="stylesheet" href="lib/jasmine-2.3.4/jasmine.css">
 
-  <!-- include spec files here... -->
-  <script src="ControllerSpec.js"></script>
+  <script src="lib/jasmine-2.3.4/jasmine.js"></script>
+  <script src="lib/jasmine-2.3.4/jasmine-html.js"></script>
+  <script src="lib/jasmine-2.3.4/boot.js"></script>
 
   <!-- include source files here... -->
-  <script>
-    // Bootstrap app data
-    window.app = {};
-  </script>
-  <script src="../js/helpers.js"></script>
-  <script src="../js/view.js"></script>
-  <script src="../js/controller.js"></script>
+  <script src="src/Player.js"></script>
+  <script src="src/Song.js"></script>
 
-  <script type="text/javascript">
-        (function() {
-            var jasmineEnv = jasmine.getEnv();
+  <!-- include spec files here... -->
+  <script src="spec/SpecHelper.js"></script>
+  <script src="spec/PlayerSpec.js"></script>
 
-            var htmlReporter = new jasmine.HtmlReporter();
-            jasmineEnv.addReporter(htmlReporter);
-            jasmineEnv.specFilter = function(spec) {
-                return htmlReporter.specFilter(spec);
-            };
-
-            var currentWindowOnload = window.onload;
-
-            window.onload = function() {
-                if (currentWindowOnload) {
-                    currentWindowOnload();
-                }
-                jasmineEnv.execute();
-            };
-        })();
-  </script>
 </head>
+
 <body>
 </body>
 </html>
