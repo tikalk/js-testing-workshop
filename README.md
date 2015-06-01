@@ -2,7 +2,7 @@
 learning to test with js: unit testing, automation and e2e
 
 ## Setup  
-Run these before:  
+Run these in your terminal before:  
 ```
 npm install  
 bower install
