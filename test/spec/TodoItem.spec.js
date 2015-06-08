@@ -8,9 +8,6 @@ describe("TodoItem - ", function() {
 
 	it("should have an id", function() {
 		expect(item.id).toBeDefined();
-
-		//demonstrates use of custom matcher
-		// expect(player).toBePlaying(song);
 	});
 
 	it("should have a created date", function() {
