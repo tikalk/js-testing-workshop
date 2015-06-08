@@ -2,7 +2,7 @@ describe("TodoList - ", function() {
 	var list;
 	var url = 'mocks/items.json';
 	var items = [{
-	"description": "buy milk"
+			"description": "buy milk"
 		}, {
 			"description": "pick the kids from school"
 		}, {
@@ -42,9 +42,7 @@ describe("TodoList - ", function() {
 
 	it("should add a new item", function(){
 		var first = items[0];
-		spyOn(list, 'add');
-		list.add(first.description);
-		expect(list.add).toHaveBeenCalledWith(first.description);
+		// Use spies!
 	});
 
 	xit("should archive an item", function(){
@@ -52,22 +50,11 @@ describe("TodoList - ", function() {
 	});
 
 	it("should call add 4 times", function(){
-		var spyAdd = spyOn(list, 'add');
-		items.forEach(function(item){
-			list.add(item.description);
-		});
-		expect(spyAdd.calls.count()).toEqual(4);
+		// Use spies!
 	});
 
 	it("should add the items with 'fetch' without ajax", function(){
-		var addAll = function(){
-			items.forEach(function(item){
-				list.add(item.description);
-			});
-		};
-		var spyAdd = spyOn(list, 'addItems').and.callFake(addAll);
-		list.addItems();
-		expect(list.items.length).toEqual(4);
+		// Use spies!
 	});
 
 	describe("when a list doesn't have a url", function(){
@@ -82,17 +69,6 @@ describe("TodoList - ", function() {
 		it("should throw an error when trying to fetch items", function(){
 			defineAjaxSpy();
 			expect(list.fetch).toThrow();
-		});
-	});
-
-	describe("Async Specs", function(){
-
-		beforeEach(function(done){
-
-		});
-
-		it("should wait 1 second before adding 4 items", function(){
-
 		});
 	});
 

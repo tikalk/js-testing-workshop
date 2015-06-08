@@ -1,7 +1,7 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 4 and the code challenge for async tests.**
+**This is the solution for step 3 and the code challenge for spies.**
 
 
 ## Setup  
