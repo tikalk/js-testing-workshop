@@ -4,9 +4,6 @@ describe("TodoItem - ", function() {
 		var desc = "buy 3% milk";
 		var item = new TodoApp.TodoItem(desc);
 		expect(item.id).toBeDefined();
-
-		//demonstrates use of custom matcher
-		// expect(player).toBePlaying(song);
 	});
 
 	it("should have a created date", function() {
