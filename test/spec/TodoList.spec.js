@@ -86,14 +86,14 @@ describe("TodoList - ", function () {
     });
 
     describe("Async Specs", function () {
-        // implement an async test!
 
         beforeEach(function (done) {
-
+			done();
         });
 
         it("should wait 1 second before adding 4 items", function () {
-
+			// implement an async test!
+			expect(true).toBe(false);
         });
     });
 
