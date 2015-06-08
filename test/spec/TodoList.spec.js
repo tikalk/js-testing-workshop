@@ -10,13 +10,6 @@ describe("TodoList - ", function() {
 		}, {
 			"description": "have fun"
 		}];
-	var defineAjaxSpy = function() {
-		$.ajax = jasmine.createSpy().and.callFake(function(res){
-			var d = $.Deferred();
-		    d.resolve(items);
-		    return d.promise();
-		});
-	};
 
 	beforeEach(function() {
 		list = new TodoApp.TodoList(url);
@@ -32,44 +25,8 @@ describe("TodoList - ", function() {
 		expect(list.url).toBe(url);
 	});
 
-	it("should fetch items and populate the items array", function(){
-		defineAjaxSpy();
-
-		list.fetch();
-
-		expect(list.items.length).toBe(items.length);
-	});
-
-	it("should add a new item", function(){
-		var first = items[0];
-		// Use spies!
-	});
-
 	xit("should archive an item", function(){
 		list.archive();
-	});
-
-	it("should call add 4 times", function(){
-		// Use spies!
-	});
-
-	it("should add the items with 'fetch' without ajax", function(){
-		// Use spies!
-	});
-
-	describe("when a list doesn't have a url", function(){
-		beforeEach(function() {
-			list = new TodoApp.TodoList();
-		});
-
-		it("shouldn't have a url set as a property", function(){
-			expect(list.url).toBe();
-		});
-
-		it("should throw an error when trying to fetch items", function(){
-			defineAjaxSpy();
-			expect(list.fetch).toThrow();
-		});
 	});
 
 	afterEach(function(){

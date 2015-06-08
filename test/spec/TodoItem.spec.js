@@ -40,10 +40,6 @@ describe("TodoItem - ", function() {
 		});
 	});
 
-	// demonstrates use of spies to intercept and test method calls
-	it("tells the current item if the item has been set to done", function() {
-		// Use spies!
-	});
 
 	  // demonstrates use of expected exceptions
 	  // describe("#done again", function() {
