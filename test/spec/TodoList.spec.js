@@ -86,8 +86,6 @@ describe("TodoList - ", function() {
 	});
 
 	describe("Async Specs", function(){
-		var value = 0;
-		var done;
 
 		beforeEach(function(done){
 			setTimeout(function(){

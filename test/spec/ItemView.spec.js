@@ -12,18 +12,18 @@ describe("ItemView - ", function () {
     });
 
     it("should have a 'Remove' button", function () {
-
+        expect(true).toBe(false);
     });
 
     it("should mark the item as done when clicked on the input", function () {
-
+        expect(true).toBe(false);
     });
 
     it("should have 'click' to check the item", function () {
-
+        expect(true).toBe(false);
     });
 
     it("should have a 'remove' button with 'click' handler", function () {
-
+        expect(true).toBe(false);
     });
 });
