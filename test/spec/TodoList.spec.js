@@ -1,15 +1,6 @@
 describe("TodoList - ", function() {
 	var list;
-	var url = 'mocks/items.json';
-	var items = [{
-			"description": "buy milk"
-		}, {
-			"description": "pick the kids from school"
-		}, {
-			"description": "clean the car"
-		}, {
-			"description": "have fun"
-		}];
+	var url = 'mocks/data.json';
 
 	beforeEach(function() {
 		list = new TodoApp.TodoList(url);
