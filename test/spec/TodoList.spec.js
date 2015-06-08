@@ -1,6 +1,4 @@
 describe("TodoList - ", function() {
-	var list;
-	var url = 'mocks/items.json';
 	var items = [{
 			"description": "buy milk"
 		}, {
@@ -11,25 +9,26 @@ describe("TodoList - ", function() {
 			"description": "have fun"
 		}];
 
-	beforeEach(function() {
-		list = new TodoApp.TodoList(url);
-	});
-
 	it("should have no items", function() {
+		var url = 'mocks/items.json';
+		var list = new TodoApp.TodoList(url);
 		expect(list.items).toBeDefined();
 		expect(list.items.length).toBe(0);
+		list.items.length = 0;
 	});
 
 	it("should have a url", function() {
+		var url = 'mocks/items.json';
+		var list = new TodoApp.TodoList(url);
 		expect(list.url).toBeDefined();
 		expect(list.url).toBe(url);
+		list.items.length = 0;
 	});
 
 	xit("should archive an item", function(){
+		var url = 'mocks/items.json';
+		var list = new TodoApp.TodoList(url);
 		list.archive();
-	});
-
-	afterEach(function(){
 		list.items.length = 0;
 	});
 

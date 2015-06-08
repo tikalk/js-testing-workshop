@@ -1,7 +1,7 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 2 and the code challenge for custom matcher.**
+**This is the solution for step 1 and the code challenge for beforeEach/afterEach & beforeAll/afterAll.**
 
 
 ## Setup  
