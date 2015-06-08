@@ -1,7 +1,15 @@
 describe("TodoList - ", function() {
 	var list;
 	var url = 'mocks/data.json';
-
+	var items = [{
+			"description": "buy milk"
+		}, {
+			"description": "pick the kids from school"
+		}, {
+			"description": "clean the car"
+		}, {
+			"description": "have fun"
+		}];
 	var defineAjaxSpy = function() {
 		$.ajax = jasmine.createSpy().and.callFake(function(res){
 			var d = $.Deferred();
