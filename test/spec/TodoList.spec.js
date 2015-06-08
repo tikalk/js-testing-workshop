@@ -86,20 +86,13 @@ describe("TodoList - ", function() {
 	});
 
 	describe("Async Specs", function(){
-		var value = 0;
-		var done;
 
 		beforeEach(function(done){
-			setTimeout(function(){
-				items.forEach(function(item){
-					list.add(item.description);
-				});
-				done();
-			}, 1000);
+
 		});
 
 		it("should wait 1 second before adding 4 items", function(){
-			expect(list.items.length).toEqual(4);
+
 		});
 	});
 
