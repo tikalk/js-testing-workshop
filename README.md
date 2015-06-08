@@ -1,7 +1,8 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-This is the final step of the workshop and includes all the previous steps solutions.
+**This is the final step of the workshop and includes all the previous steps solutions.**
+
 
 ## Setup  
 Run these in your terminal before:  
