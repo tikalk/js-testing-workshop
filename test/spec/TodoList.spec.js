@@ -43,6 +43,7 @@ describe("TodoList - ", function() {
 	it("should add a new item", function(){
 		var first = items[0];
 		// Use spies!
+        expect(true).toBe(false);
 	});
 
 	xit("should archive an item", function(){
@@ -51,10 +52,12 @@ describe("TodoList - ", function() {
 
 	it("should call add 4 times", function(){
 		// Use spies!
+        expect(true).toBe(false);
 	});
 
 	it("should add the items with 'fetch' without ajax", function(){
 		// Use spies!
+        expect(true).toBe(false);
 	});
 
 	describe("when a list doesn't have a url", function(){
