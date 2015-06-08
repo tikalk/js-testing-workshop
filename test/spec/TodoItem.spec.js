@@ -7,21 +7,21 @@ describe("TodoItem - ", function() {
 	});
 
 	it("should have a created date", function() {
-
+		expect(true).toBe(false);
 	});
 
 	it("should have a description property", function() {
-
+		expect(true).toBe(false);
 	});
 
 	describe("when an item's done status has been changed, ", function() {
 
 		it("should set to true when it's done", function() {
-
+			expect(true).toBe(false);
 		});
 
 		it("should be false when set back to undone", function() {
-
+			expect(true).toBe(false);
 		});
 	});
 
