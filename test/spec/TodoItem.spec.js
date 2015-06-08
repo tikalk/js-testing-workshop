@@ -8,9 +8,6 @@ describe("TodoItem - ", function() {
 
 	it("should have an id", function() {
 		expect(item.id).toBeDefined();
-
-		//demonstrates use of custom matcher
-		// expect(player).toBePlaying(song);
 	});
 
 	it("should have a created date", function() {
@@ -46,6 +43,7 @@ describe("TodoItem - ", function() {
 		item.done();
 		expect(item.done).toHaveBeenCalled();
 	});
+
 	  // demonstrates use of expected exceptions
 	  // describe("#done again", function() {
 	  // 	it("should throw an exception if item is already done", function() {
