@@ -13,7 +13,7 @@
     "todomvc-common": "^1.0.1"
   },
   "devDependencies": {
-    "jasmine-core": "^0.3.0",
+    "jasmine-core": "^2.3.0",
     "jquery": "^2.1.4",
     "karma-html2js-preprocessor": "^0.1.0",
     "karma-jasmine": "^0.3.0",

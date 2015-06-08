@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "homepage": "https://github.com/tikalk/js-testing-workshop",
   "authors": [
-    "orizens <farhioren@gmail.com>"
+    "orizens <farhioren@gmail.com>",
+    "chompy18 <sefi@tikalk.com"
   ],
   "description": "js testing workshop @ Tikal",
   "keywords": [
