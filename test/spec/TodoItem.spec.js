@@ -27,7 +27,6 @@ describe("TodoItem - ", function() {
 			var item = new TodoApp.TodoItem(desc);
 			item.done();
 			expect(item.isDone).toBeTruthy();
-			expect(item).toBeDone(true);
 		});
 
 		it("should be false when set back to undone", function() {
