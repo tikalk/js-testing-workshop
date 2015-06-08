@@ -1,6 +1,6 @@
 describe("TodoList - ", function() {
 	var list;
-	var url = 'mocks/items.json';
+	var url = 'mocks/data.json';
 	var items = [{
 	"description": "buy milk"
 		}, {
