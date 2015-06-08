@@ -1,7 +1,7 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the final step of the workshop and includes all the previous steps solutions.**
+**This is the solution for step 5 and the code challenge for jasmine-jquery.**
 
 
 ## Setup  
