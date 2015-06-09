@@ -1,8 +1,10 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the code challenge for jasmine tests.**
-
+## Challange  
+write the correct assertions for:  
+1. [Todo Item Spec](test/spec/TodoItem.spec. js)  
+2. [Todo List Spec](test/spec/TodoList.spec.js)
 
 ## Setup  
 Run these in your terminal before:  
