@@ -47,10 +47,6 @@ describe("TodoList - ", function() {
 		expect(list.add).toHaveBeenCalledWith(first.description);
 	});
 
-	xit("should archive an item", function(){
-		list.archive();
-	});
-
 	it("should call add 4 times", function(){
 		var spyAdd = spyOn(list, 'add');
 		items.forEach(function(item){
