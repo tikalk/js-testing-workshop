@@ -1,7 +1,11 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
+**solution for step 3**
 
-**This is the solution for step 3 and the code challenge for spies.**
+## Challange - Spies
+Add Spies to these files (where noted "Use spies!"):  
+1. [Todo Item Spec](test/spec/TodoItem.spec.js)  
+1. [Todo List Spec](test/spec/TodoList.spec.js)  
 
 
 ## Setup  
