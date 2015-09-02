@@ -1,7 +1,11 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 1 and the code challenge for beforeEach/afterEach & beforeAll/afterAll.**
+**solution for step 1**
+
+## Challange  
+Add beforeEach/afterEach & beforeAll/afterAll to these files:  
+1. [Todo Item Spec](test/spec/TodoItem.spec.js)  
 
 
 ## Setup  
