@@ -1,8 +1,8 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-## Challange  
-write the correct assertions for:  
+## Challange - Add Matchers
+write the correct matchers for:  
 1. [Todo Item Spec](test/spec/TodoItem.spec.js)  
 2. [Todo List Spec](test/spec/TodoList.spec.js)
 
