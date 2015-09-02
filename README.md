@@ -1,7 +1,12 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 2 and the code challenge for custom matcher.**
+**solution for step 2**
+
+## Challange  
+Add a custom matcher ```toBeDone()`` to:  
+1. [SpecHelper.js](test/spec/SpecHelper.js)  
+2. View usage of this matcher in TodoItem.spec.js  
 
 
 ## Setup  
