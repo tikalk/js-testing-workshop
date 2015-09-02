@@ -1,8 +1,11 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 5 and the code challenge for jasmine-jquery.**
+**solution for step 5**
 
+## Challange - DOM / jasmine-jquery Matchers
+Add jasmine-jquery mathcers to these files:  
+1. [Todo Item View](test/spec/ItemView.spec.js)  
 
 ## Setup  
 Run these in your terminal before:  
