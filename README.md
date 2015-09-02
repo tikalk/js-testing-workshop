@@ -1,8 +1,11 @@
 # js-testing-workshop
 learning to test with js: unit testing, automation and e2e
 
-**This is the solution for step 4 and the code challenge for async tests.**
+**solution for step 4**
 
+## Challange - Spies
+Add Async to these files (where noted "implement an async test!"):  
+1. [Todo List Spec](test/spec/TodoList.spec.js)  
 
 ## Setup  
 Run these in your terminal before:  
