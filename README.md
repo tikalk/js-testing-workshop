@@ -3,9 +3,10 @@ learning to test with js: unit testing, automation and e2e
 
 **solution for step 1**
 
-## Challange  
-Add beforeEach/afterEach & beforeAll/afterAll to these files:  
+## Challange - BeforeEach
+Add beforeEach function to these files:  
 1. [Todo Item Spec](test/spec/TodoItem.spec.js)  
+1. [Todo List Spec](test/spec/TodoList.spec.js)  
 
 
 ## Setup  
